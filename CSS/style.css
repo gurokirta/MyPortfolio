@@ -254,8 +254,13 @@ ul {
   padding: 5px;
 }
 
-.aside .nav li a.active {
+/* .aside .nav li a.active {
   color: var(--skin-color);
+} */
+
+.aside .nav li a:hover {
+  color: var(--skin-color);
+  transition: all 0.4s ease;
 }
 
 .aside .nav li a i {
